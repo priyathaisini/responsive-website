@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}*
+.main{
+    background-color: aquamarine;
+    width:100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+}
+
+
+.parent{
+    display: grid;
+    grid-template-columns: 200px auto;
+    height: 100vh;
+    
+  
+}
+.right{
+    background-color:white;
+
+    
+    
+}
+.first{
+    padding-top: 40px;
+    background-color: gray;
+    
+    
+
+}
+.menu li{
+    padding: 8px;
+    margin-bottom: 1px;
+    background-color:black;
+    color: #ffffff;
+    text-align: center;
+
+}
+.stxtover{
+    width:78%;
+    position: absolute;
+    top:14%;
+    text-align: center;
+    padding: 10px 0px;
+    color:white;
+}
+.btn1{
+    background-color:dodgerblue;
+    padding: 10px;
+}
+.sec{
+
+    width:85%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+ }
+
+.about{
+        background-color: orange;
+        color:white;
+        width: 10%;
+        padding: 20px;
+        text-align: center;
+ }
+ .gal{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-between;
+    text-align: center;
+}
+.gal1,.gal2,.gal3{
+    width:30%;
+}
+
+
+.fur{
+    display: flex;
+    width:100%;
+    text-align: left;
+ }
+ .furl{
+     width: 70%;
+ }
+ .furr{
+     width: 30%;
+ }
+ .service{
+     background-color:blueviolet;
+     color: white;
+     width: 10%;
+     padding: 20px;
+     text-align: center;
+ }
+ .cols{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+    
+     margin-top: 10px;
+     text-align: center;
+ }
+ .c1,.c2,.c3{
+     width:30%;
+     background-color: blueviolet;
+     padding: 30px 0px;
+ }
+ .exp{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+    
+     text-align: center;
+ }
+ .expl{
+     width: 65%;
+     margin-right: 5%;
+     text-align: left;
+ }
+ .expr{
+     width:30%;
+
+    
+ }
+ .i1{
+     background: linear-gradient(to right,blueviolet 90%,grey 10%);
+     padding: 2px;
+     margin-top:15px;
+     border-radius:5px ;
+ }
+ .i2{
+     background: linear-gradient(to right, blueviolet 80%,grey  20%);
+     padding: 2px;
+     margin-top:15px;
+     border-radius:5px ;
+ }
+ .i3{
+     background: linear-gradient(to right,blueviolet 75%,grey  25%);
+     padding: 2px;
+     margin-top:15px;
+     border-radius:5px ;
+ }
+ .i4{
+     background: linear-gradient(to right,blueviolet 65%,grey  35%);
+     padding: 2px;
+     margin-top:15px;
+     border-radius:5px ;
+ }
+ 
+ .portfolio{
+     color: white;
+     background-color: palegreen;
+     width: 10%;
+     padding: 20px;
+     text-align: center;  
+ }
+ .gal2{
+     display: grid;
+     width:100%;
+     grid-template-columns: 30% 30% 30%;
+     column-gap: 5%;
+     margin-top: 50px;
+     color: palegreen;
+     text-align: center;
+ }
+ .btn2{
+     display:flex;
+     justify-content: center;
+     margin-top: 20px;
+ }
+ #b2{
+     padding: 15px 20px;
+     color: white;
+     background-color: palegreen;
+     border: none;
+ }
+ .contact{
+     color: white;
+     background-color: rgb(235, 70, 98);
+     width: 20%;
+     padding: 20px;
+     text-align:center;
+    }
+
+    .web{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .pic2{
+        width: 30px;
+        height: 40px;
+        padding: 10px;
+    
+    }
+    .msgbox{
+        display: flex;
+        justify-content: left;
+    }
+    .foot{
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        
+    
+    }
